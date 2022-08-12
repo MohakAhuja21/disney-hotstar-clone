@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+        <ul class="left-nav">
+            <img src="images/logo.png" alt="disney+logo">
+            <li class="nav-links"><a href="#">TV</a></li>
+            <li class="nav-links"><a href="#">movies</a></li>
+            <li class="nav-links"><a href="#">sports</a></li>
+            <li class="nav-links"><a href="#">disney+</a></li>
+        </ul>
+        <div class="right-nav">
+            <input type="text" id="search" placeholder="search" spellcheck="false">
+            <button class="sub-btn">subscribe</button>
+            <button class="login-btn">LOGIN</button>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, eum.</p>
+                </div>
+                <img src="images/slider 1.PNG" alt="">
+            </div> -->
+        </div>
+    </div>
+    <!-- image cards playing video -->
+    <div class="video-card-container">
+        <!-- 1st card -->
+        <div class="video-card">
+            <img class="video-card-image" src="images/disney.PNG" alt="">\
+            <video class="card-video" src="videos/disney.mp4" loop muted></video>
+        </div>
+        <!-- 2nd card -->
+        <div class="video-card">
+            <img class="video-card-image" src="images/pixar.PNG" alt="">\
+            <video class="card-video" src="videos/pixar.mp4" loop muted></video>
+        </div>
+        <!-- 3rd card -->
+        <div class="video-card">
+            <img class="video-card-image" src="images/marvel.PNG" alt="">\
+            <video class="card-video" src="videos/marvel.mp4" loop muted></video>
+        </div>
+        <!-- 4th card -->
+        <div class="video-card">
+            <img class="video-card-image" src="images/star-wars.PNG" alt="">\
+            <video class="card-video" src="videos/star-war.mp4" loop muted></video>
+        </div>
+        <!-- 5th card -->
+        <div class="video-card">
+            <img class="video-card-image" src="images/geographic.PNG" alt="">\
+            <video class="card-video" src="videos/geographic.mp4" loop muted></video>
+        </div>
+    </div>
+    <!-- cards displaying movie with info -->
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="previous-button"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn" title="next-button"><img src="images/nxt.png" alt=""></button>
+
+        <div class="card-container">
+            <div class="card">
+              <img src="images/poster 1.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">LOKI</h2>
+                <h6 class="des">role as the God of MischieF.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 2.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">MULAN</h2>
+                <h6 class="des">American fantasy action drama film.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 3.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">The falcon and the winter soldier</h2>
+                <h6 class="des">an American television miniseries.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 4.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">THE AVENGERS</h2>
+                <h6 class="des">The Avengers are an all-star.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 5.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">THE RAGNAROK</h2>
+                <h6 class="des">based on the Marvel Comics character.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 6.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">MARVEL AVENGERS</h2>
+                <h6 class="des">
+                  IMPOSTER Avengers Endgame Marvel Superhero Team Paper.
+                </h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 7.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">THE PIRATES AND CARIDDA</h2>
+                <h6 class="des">This Pin was discovered by Carissa Rose..</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 8.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">SOUL</h2>
+                <h6 class="des">
+                  Unique or custom, handmade pieces from our shops.
+                </h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 9.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">RAYA THE LAST ORAGON</h2>
+                <h6 class="des">Raya is determined to find the last dragon.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="images/poster 10.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">LUCA</h2>
+                <h6 class="des">Directed by Enrico Casarosa.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 11.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">FORD VS FORRARI</h2>
+                <h6 class="des">directed by James Mangold.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/poster 12.png" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">THE PHONIX</h2>
+                <h6 class="des">Phoenix Posters printed on metal canvas.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+<script src="index.js" async></script>
+</html>
